@@ -70,12 +70,11 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 }
-#switch button:hover{
+#switch button:hover {
   outline: 8px solid var(--highlight-color);
 }
 .light #switch button {
   animation: slidein 0.3s forwards;
-  
 }
 #switch span {
   display: block;
@@ -132,11 +131,27 @@ ul li a:hover {
 #sociallinks ion-icon:hover {
   background: var(--highlight-color);
 }
+.tecnologias {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tecnologias ion-icon {
+  padding: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.tecnologias ion-icon:hover {
+  background: var(--highlight-color);
+}
 footer {
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 footer p {
   display: flex;
@@ -150,24 +165,21 @@ footer ion-icon {
   padding: 10px;
 }
 @keyframes {
-  
 }
 /* animações */
-@keyframes slidein{
-  from{ 
+@keyframes slidein {
+  from {
     left: 0;
-
   }
-  to{
-    left: 50%
+  to {
+    left: 50%;
   }
 }
-@keyframes slideout{
-  from{
-    left: 50%
-
+@keyframes slideout {
+  from {
+    left: 50%;
   }
-  to{
+  to {
     left: 0;
   }
 }
