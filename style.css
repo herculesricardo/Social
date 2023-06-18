@@ -23,8 +23,8 @@
 }
 
 body {
-  background: var(--bg-url) no-repeat top center/cover;
-  height: 100vh;
+  background: var(--bg-url) no-repeat top center/cover ;
+  height: 110vh;
 }
 body * {
   font-family: "inter", sans-serif;
@@ -33,7 +33,7 @@ body * {
 #container {
   width: 100%;
   max-width: 588px;
-  margin: 56px auto 0px auto;
+  margin: 50px auto 0px auto;
 }
 /*profile */
 #profile {
@@ -149,6 +149,8 @@ ul li a:hover {
   height: 40px;
   border-radius: 50%;
   transition: background 0.2s;
+  
+  
 }
 
 .tecnologias ion-icon:hover {
@@ -164,6 +166,8 @@ footer p {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: bounce 2s infinite alternate;
+  -webkit-animation: bounce 2s infinite alternate;
 }
 
 footer ion-icon {
@@ -171,8 +175,7 @@ footer ion-icon {
   height: 20px;
   padding: 10px;
 }
-@keyframes {
-}
+
 /* animações */
 @keyframes slidein {
   from {
@@ -189,4 +192,29 @@ footer ion-icon {
   to {
     left: 0;
   }
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+@media (max-width: 900px)
+{#container {
+  width: 100%;
+  max-width: 588px;
+  margin: 10px auto 0px auto;
+}
+
 }
