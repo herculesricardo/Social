@@ -148,7 +148,7 @@ ul li a:hover {
   background: var(--highlight-color);
 }
 footer {
-  margin-top: 30px;
+  margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
