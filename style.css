@@ -20,11 +20,12 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
+  
 }
 
 body {
   background: var(--bg-url) no-repeat center/cover;
-  height: 110vh;
+
 }
 body * {
   font-family: "inter", sans-serif;
