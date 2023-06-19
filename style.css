@@ -5,7 +5,7 @@
 }
 :root {
   --text-color: white;
-  --bg-url: url(./assets/bg-mobile.jpg);
+  --bg-url: url(./assets/bg-night.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -14,7 +14,7 @@
 }
 .light {
   --text-color: black;
-  --bg-url: url(./assets/bg-mobile-light.jpg);
+  --bg-url: url(./assets/bg-sun.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -23,7 +23,7 @@
 }
 
 body {
-  background: var(--bg-url) no-repeat top center/cover ;
+  background: var(--bg-url) no-repeat center/cover;
   height: 110vh;
 }
 body * {
@@ -52,8 +52,8 @@ body * {
   font-size: 20px;
   line-height: 24px;
 }
-#profile p{
-  margin:5px 0;
+#profile p {
+  margin: 5px 0;
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
@@ -149,8 +149,6 @@ ul li a:hover {
   height: 40px;
   border-radius: 50%;
   transition: background 0.2s;
-  
-  
 }
 
 .tecnologias ion-icon:hover {
@@ -210,11 +208,10 @@ footer ion-icon {
     transform: translateY(-15px);
   }
 }
-@media (max-width: 900px)
-{#container {
-  width: 100%;
-  max-width: 588px;
-  margin: 10px auto 0px auto;
-}
-
+@media (max-width: 900px) {
+  #container {
+    width: 100%;
+    max-width: 588px;
+    margin: 10px auto 0px auto;
+  }
 }
