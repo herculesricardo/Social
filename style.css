@@ -24,7 +24,7 @@
 }
 
 body {
-  background: var(--bg-url) no-repeat center/cover;
+  background: var(--bg-url) no-repeat center;
 
 }
 body * {
@@ -215,8 +215,5 @@ footer ion-icon {
     max-width: 588px;
     margin: 10px auto 0px auto;
   }
-  body {
-  background: var(--bg-url) no-repeat center center;
 
-}
 }
