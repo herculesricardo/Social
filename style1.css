@@ -14,7 +14,7 @@
 }
 .light {
   --text-color: black;
-  --bg-url: url(./assets/bg-sun.jpg);
+  --bg-url: url(./assets/bgsunpc.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -130,10 +130,4 @@ ion-icon {
 #right:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.8);
-}
-@media (max-width: 1050px){
-body {
-  background: var(--bg-url) no-repeat cover center center;
-  background-attachment: fixed;
-}
 }
