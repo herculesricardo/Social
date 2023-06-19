@@ -135,7 +135,7 @@ ion-icon {
 }
 @media (max-width: 1050px){
   body {
-  background: var(--bgmobile-url) no-repeat center center;
+  background: var(--bgmobile-url) no-repeat cover center center;
   background-attachment: fixed;
 }
 }
