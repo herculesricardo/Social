@@ -24,7 +24,7 @@
 }
 
 body {
-  background: var(--bg-url) no-repeat center;
+  background: var(--bg-url) no-repeat center center;
 
 }
 body * {
