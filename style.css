@@ -63,6 +63,8 @@ body * {
   position: relative;
   width: 64px;
   margin: 4px auto;
+  border-radius: 50%;
+
 }
 #switch button {
   width: 32px;
@@ -71,6 +73,7 @@ body * {
   border-radius: 50%;
   border: 0;
   animation: slideout 0.3s;
+
 
   position: absolute;
   top: 50%;
@@ -208,11 +211,4 @@ footer ion-icon {
     transform: translateY(-15px);
   }
 }
-@media (max-width: 900px) {
-  #container {
-    width: 100%;
-    max-width: 588px;
-    margin: 10px auto 0px auto;
-  }
 
-}
