@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
   margin: 0;
   padding: 0;
@@ -20,13 +22,10 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
-  
 }
-
+html,
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  
- 
 }
 body * {
   font-family: "inter", sans-serif;
@@ -47,7 +46,6 @@ body * {
   border-radius: 50%;
   border: 2px solid var(--text-color);
 }
-
 #profile h1 {
   margin: 5px 0;
   font-weight: 500;
@@ -66,7 +64,6 @@ body * {
   width: 64px;
   margin: 4px auto;
   border-radius: 50%;
-
 }
 #switch button {
   width: 32px;
@@ -75,8 +72,6 @@ body * {
   border-radius: 50%;
   border: 0;
   animation: slideout 0.3s;
-
-
   position: absolute;
   top: 50%;
   z-index: 1;
@@ -97,9 +92,7 @@ body * {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
-
 /* lista de links*/
-
 ul {
   list-style: none;
   display: flex;
@@ -113,15 +106,12 @@ ul li a {
   align-items: center;
   justify-content: center;
   padding: 16px 24px;
-
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   border-radius: 8px;
   backdrop-filter: blur(4px);
-
   text-decoration: none;
   font-weight: 500;
-
   transition: background 0.2s;
 }
 ul li a:hover {
@@ -155,7 +145,6 @@ ul li a:hover {
   border-radius: 50%;
   transition: background 0.2s;
 }
-
 .tecnologias ion-icon:hover {
   background: var(--highlight-color);
 }
@@ -172,13 +161,11 @@ footer p {
   animation: bounce 2s infinite alternate;
   -webkit-animation: bounce 2s infinite alternate;
 }
-
 footer ion-icon {
   width: 20px;
   height: 20px;
   padding: 10px;
 }
-
 /* animações */
 @keyframes slidein {
   from {
@@ -196,7 +183,6 @@ footer ion-icon {
     left: 0;
   }
 }
-
 @keyframes bounce {
   from {
     transform: translateY(0px);
